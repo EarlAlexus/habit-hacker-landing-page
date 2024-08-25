@@ -3,6 +3,8 @@
     --images: #5DFCF4;
     --main-background-color: #1F2937;
     --main-text-color: #FFFFFF;
+    --secondary-color: #E5E7EB;
+    --tertiary-color: #F9FAF8;
 }
 
 a {
@@ -19,7 +21,7 @@ body {
 button {
     background-color: var(--accent);
     border-radius: 12px;
-    color: #F9FAF8;
+    color: var(--tertiary-color);
     cursor: pointer;
     flex-shrink: 0;
     font-weight: 600;
@@ -36,6 +38,13 @@ h1 {
 
 li {
     list-style-type: none;
+}
+
+.author {
+    color: var(--main-background-color);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
 }
 
 .first-section {
@@ -64,7 +73,7 @@ li {
 }
 
 .hero-message {
-    color: #F9FAF8;
+    color: var(--tertiary-color);
     font-size: 48px;
     margin: 0;
 }
@@ -92,16 +101,30 @@ li {
 }
 
 .right-links {
-    color: #F9FAF8;
+    color: var(--tertiary-color);
     display: flex;
     font-size: 16px;
     gap: 16px;
 }
 
 .subtext {
-    color: #E5E7Eb;
+    color: var(--secondary-color);
     font-size: 18px;
     margin: 4px 0px 12px 0px;
+}
+
+.quote {
+    color: var(--main-background-color);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-section {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 120px 240px;
 }
 
 div.header {
