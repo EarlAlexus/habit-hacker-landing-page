@@ -13,6 +13,8 @@ a {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: "Roboto", sans-serif;
     margin: 0px;
     padding: 0px;
@@ -49,7 +51,20 @@ li {
     margin: 100px 200px;
 }
 
-.first-section {
+.copyright {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-section {
+    background-color: var(--main-background-color);
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.header-section {
     background-color: var(--main-background-color);
     color: var(--main-text-color);
 }
