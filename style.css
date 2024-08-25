@@ -18,20 +18,6 @@ body {
     padding: 0px;
 }
 
-button {
-    background-color: var(--accent);
-    border-radius: 12px;
-    color: var(--tertiary-color);
-    cursor: pointer;
-    flex-shrink: 0;
-    font-weight: 600;
-    margin-top: 12px;
-    margin-bottom: 12px;
-    padding: 12px 0;
-    width: 25%;
-    word-wrap: break-word;
-}
-
 h1 {
     margin-top: 0px;
 }
@@ -45,6 +31,22 @@ li {
     font-size: 20px;
     font-weight: 600;
     text-align: right;
+}
+
+.call-to-action-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.call-to-action-section {
+    align-items: center;
+    background-color: var(--accent);
+    border-radius: 12px;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 200px;
 }
 
 .first-section {
@@ -141,17 +143,63 @@ div.header-content {
 
 }
 
+.call-to-action-section button {
+    background-color: var(--accent);
+    border-color: var(--secondary-color);
+    border-radius: 12px;
+    color: var(--tertiary-color);
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 150px;
+    padding: 12px 0;
+    width: 15%;
+    word-wrap: break-word;
+}
+
+.call-to-action-content .action {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 48px;
+}
+
+.call-to-action-content .call {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 48px;
+}
+
+.four-laws h5 {
+    color: var(--main-background-color);
+    font-size: 16px;
+    margin: 12px;
+    text-align: center;
+}
+
+.header-content-message button {
+    background-color: var(--accent);
+    border-radius: 12px;
+    color: var(--tertiary-color);
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px 0;
+    width: 25%;
+    word-wrap: break-word;
+}
+
 .information-section img {
     border: solid rgba(93, 252, 244, 0.5);
     border-radius: 20px;
     height: 200px;
     padding: 16px;
     width: 150px;
-}
-
-div h5 {
-    color: var(--main-background-color);
-    font-size: 16px;
-    margin: 12px;
-    text-align: center;
 }
